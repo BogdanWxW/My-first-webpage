@@ -1,0 +1,113 @@
+
+
+* {font-family: 'Oswald', sans-serif;
+    font-size: 1em;}
+
+    body {
+        background-color: black;
+        height: 500px; /* You must set a specified height */
+        background-position: 50% 50%; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        
+        
+       }
+
+       .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        left: 0%;
+        width: 100%; /* Full width */
+      }
+      
+      /* Links inside the navbar */
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change background on mouse-over */
+      .navbar a:hover {
+        background: rgb(59, 58, 58);
+        color: black;
+        
+      }
+      
+      /* Main content */
+      .main {
+        margin-top: 30px; /* Add a top margin to avoid content overlay */
+      }
+  
+
+
+
+    .active {
+        background-color: #4CAF50;
+        
+      }
+
+
+      .main {
+        margin-top: 80px; /* Add a top margin to avoid content overlay */
+      }
+
+
+     p, h1 {color:white}
+
+    .important {text-decoration: solid;
+                font-size: 1.9em;
+            text-align:center;
+        background-color: red;
+        clear:both;
+        float:center;
+        
+        }
+
+        .home {font-size: 3em;
+        text-align: center;}
+
+        
+
+            img{float:right;
+                border-radius: 50%}
+
+
+                .button {
+                    padding: 20px 20px; 
+            display: inline-block; 
+            color: hsl(0, 0%, 100%); 
+            letter-spacing: 2px; 
+            
+            text-decoration: none; 
+            font-size: 3em; 
+            overflow: hidden;
+             background-color: black;
+             border-radius: 30px;
+                    
+
+                  }
+                  
+                  .button:hover {
+                    color: #111; 
+                    background: #39ff14; 
+                    box-shadow: 0 0 50px #39ff14; 
+                  }
+
+
+                  
+                  
+                  .center {
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                  }
+ 
